@@ -8,6 +8,7 @@
 import scrapy
 
 
-class DatatauItem(scrapy.Item):
-    title = scrapy.Field()
+class SocrataItem(scrapy.Item):
+    text = scrapy.Field()
     url = scrapy.Field()
+    views = scrapy.Field()
